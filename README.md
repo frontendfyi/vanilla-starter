@@ -8,7 +8,7 @@ without being distracted by framework specific things.
 
 ## But what is included?
 
-* **ParcelJS*: We use Parcel to do all the heavy
+* **ParcelJS**: We use Parcel to do all the heavy
 lifting for us. Parcel is a very fast "zero" configuration
 bundler. This means that pretty much without configuration
 Parcel will compile our scripts and show it for us on a locals
