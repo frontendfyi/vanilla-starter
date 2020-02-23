@@ -1,0 +1,10 @@
+/* This file includes a few small tweaks to the UIKit styles to make them look more frontend.fyi.*/
+.uk-button-primary {
+  background: #fdf1b0;
+  color: rgb(51, 51, 51);
+}
+
+.uk-button-primary:focus,
+.uk-button-primary:hover {
+  background: rgb(51, 51, 51);
+}

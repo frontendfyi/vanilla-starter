@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.3.2/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="./uikit-overrides.css" />
+  </head>
+  <body>
+    <div class="uk-section uk-section-muted">
+      <div class="uk-container uk-flex uk-flex-between uk-flex-middle">
+        <h1 class="uk-margin-remove">frontend.fyi vanilla starter</h1>
+        <!-- prettier-ignore -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 121" width="80"><path d="M41 38.95C42.22 19.295 58.245 3.294 77.94 2.077 100.92.658 120 18.843 120 41.475c0 15.347-8.789 28.62-21.6 35.151v31.216c0 .01-.01.01-.01.02l.01.06-.03-.04c-.04.121-.201.172-.282.04l-.685-1.247L73.03 76.666H53.428l-2.59-15.91H41V38.95zM85 117H66.216c-5.084 0-9.216-4.15-9.216-9.28V88h7.782L85 117z" fill="#FDF1B0"/><path d="M88.016 121H58.21C51.47 121 46 115.473 46 108.688V83.009C46 81.341 47.34 80 48.984 80s2.984 1.351 2.984 3.009v25.679c0 3.47 2.8 6.294 6.241 6.294h29.807c1.654 0 2.984 1.351 2.984 3.009A2.988 2.988 0 0188.016 121z" fill="#000"/><path d="M76.065 106h-27.12c-1.633 0-2.945-1.347-2.945-3 0-1.663 1.322-3 2.945-3h27.11c1.633 0 2.945 1.347 2.945 3 .01 1.663-1.312 3-2.935 3z" fill="#000"/><path d="M87.321 120c-1.107 0-2.244-.652-2.783-1.604l-.63-1.122-25.47-31.013H38.523c-1.462 0-2.711-1.052-2.945-2.476l-2.407-14.644h-8.185c-1.656 0-2.986-1.323-2.986-2.947V42.73c0-.06 0-.12.01-.18C23.442 19.756 41.936 1.503 65.03.09c12.867-.781 25.104 3.56 34.458 12.24C108.708 20.888 114 32.956 114 45.445c0 16.538-8.967 31.544-23.53 39.602v31.845c0 .35-.062.691-.183 1.012a2.938 2.938 0 01-.833 1.243 3.235 3.235 0 01-1.93.852h-.203zM41.072 80.357H59.87c.904 0 1.757.401 2.326 1.093l22.312 27.173V83.264a2.94 2.94 0 011.625-2.626c13.507-6.806 21.895-20.297 21.895-35.212 0-11.026-4.488-21.27-12.633-28.818-8.145-7.547-18.788-11.336-30-10.644-20.057 1.232-36.134 17.06-37.423 36.846v20.427H35.7c1.462 0 2.712 1.053 2.945 2.476l2.427 14.644zM8.637 99c-11.516-10.757-11.516-28.253 0-39L13 64.075c-9.104 8.504-9.104 22.346 0 30.85L8.637 99z" fill="#000"/><path d="M15.586 91c-7.448-6.89-7.448-18.11 0-25L20 70.083c-5.019 4.643-5.019 12.191 0 16.834L15.586 91zM24.343 74a7.627 7.627 0 000 11l4.233-4.111L30 79.505 24.343 74zM83 112h8v8h-8zM76.128 45.21l-6.5-6.182L67.495 37l-8.623 8.21H43V57h6.04v-6.056h12.334l6.12-5.83 6.143 5.83H85.96V57H92V45.21z" fill="#000"/s></svg>
+        <!-- prettier-ignore-end -->
+      </div>
+    </div>
+    <div class="uk-container uk-margin-large-top">
+      <div class="uk-grid">
+        <div class="uk-width-3-5">
+          <p>
+            This small starter project is used in all frontend.fyi videos where
+            we focus only on vanilla JavaScript / vanilla Typescript, or in
+            other words projects that don't use any framework. By doing so we
+            hope being able to focus on the JavaScript/TypeScript problems
+            without being distracted by framework specific things.
+          </p>
+          <h2>But what is included?</h2>
+          <ul>
+            <li class="uk-margin-medium-bottom">
+              <p>
+                <strong>ParcelJS</strong>: We use Parcel to do all the heavy
+                lifting for us. Parcel is a very fast "zero" configuration
+                bundler. This means that pretty much without configuration
+                Parcel will compile our scripts and show it for us on a local
+                webserver that will automatically reload.
+              </p>
+              <a
+                class="uk-button uk-button-primary"
+                href="https://parceljs.org/"
+                target="_blank"
+                >Go to the Parcel website</a
+              >
+            </li>
+            <li class="uk-margin-medium-bottom">
+              <p>
+                <strong>UIKit</strong>: We use UIKit to load their CSS via a CDN
+                to make these examples just a little bit more visually appealing
+                without needing to maintain these styles ourselves ;) You can
+                compare UIKit to Bootstrap, although I personally think UIKit
+                looks a bit better.
+              </p>
+              <a
+                class="uk-button uk-button-primary"
+                href="https://getuikit.com/"
+                target="_blank"
+                >Go to the UIKit website</a
+              >
+            </li>
+          </ul>
+
+          <h2>How to preview this page?</h2>
+          <p>
+            Open your terminal and run <code>npm install</code>. Once that
+            process is completed you can run <code>npm start</code>, that will
+            start the server, which you can view at
+            <a href="http://localhost:1234">http://localhost:1234</a>.
+          </p>
+
+          <p>Go to the <a href="empty.html">empty page</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="../src/index.js"></script>
+    <script src="../src/index.ts"></script>
+  </body>
+</html>
